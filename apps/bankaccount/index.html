@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 8 - The Bank Account Application</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <script src="js/script.js"></script>
+
+    <style>
+        .container {
+            padding: 10rem;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 10%;
+        }
+
+        .button-primary.min-width {
+            min-width: 250px;            
+        }
+
+        .twelve.column.center {
+            margin: 0;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <h1>The Bank Account Application </h1>        
+        <div class="row">
+            <div class="twelve column center">
+                <button id="btnName" class="button-primary min-width">Name</button>
+                <button id="btnDeposit" class="button-primary min-width">Deposit</button>
+                <button id="btnWithdrawal" class="button-primary min-width">Withdrawal</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>        
+        <div class="row">
+            <div class="six columns">
+                <label for="ownerName">Name</label>
+                <input type="text" id="ownerName" name="ownerName" disabled>
+            </div>
+            <div class="six columns">
+                <label for="balance">Balance</label>
+                <input type="text" id="balance" name="balance" disabled>
+            </div>
+        </div>
+</body>
+
+</html>
